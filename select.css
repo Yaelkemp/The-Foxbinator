@@ -1,0 +1,69 @@
+body {
+  background-color: #FF9511;
+}
+
+header, footer {
+  background-color: #F7A238;
+}
+
+main {
+  margin-top: 0.7em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.question {
+  font-size: 50%;
+}
+
+.question-1 {
+  margin-right: 14em;
+}
+
+.question-2 {
+  margin-left: 13em;
+}
+
+.question-3 {
+  margin-right: 13em;
+}
+
+.question-4 {
+  margin-left: 13em;
+}
+
+.choose {
+  font-size: 70%;
+}
+
+.animal-buttons {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template: repeat(2, 1fr) / repeat(6, 1fr);
+  column-gap: 0.6em;
+  row-gap: 0.6em;
+}
+
+.animal-btn {
+  /* width: 5em; */
+  height: 3em;
+  border-radius: 0.5em;
+  background-color: #EC6400;
+  text-align: center;
+  display: grid;
+  align-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.dive-in {
+  padding-top: 2em;
+  padding-left: 2.1em;
+  background-image: url('Images/Diving.webp');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

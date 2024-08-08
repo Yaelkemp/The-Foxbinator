@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Cheddar Gothic Rough';
+  src: url(fonts/CheddarGothicRough-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Cheddar Gothic Rough';
+  font-style: italic;
+  src: url(fonts/CheddarGothicRough-Italic.otf);
+}
+
+@font-face {
+  font-family: 'Agenda';
+  font-weight: 100;
+  src: url(fonts/Agenda-light.woff);
+}
+
+html {
+  font-family: 'Agenda';
+  font-weight: 100;
+  font-size: 300%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+  align-content: stretch;
+}
+
+header {
+  background-color: #E4C589;
+  width: 100%;
+  font-size: 0.5rem;
+}
+
+header > * {
+  margin-inline-start: 1em;
+}
+
+header a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #E4C589;
+  width: 100%;
+  font-size: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 70% 1fr;
+  grid-template-rows: auto;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+main {
+  padding: 0 5% 0 5%;
+}

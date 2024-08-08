@@ -1,0 +1,71 @@
+body {
+  background-color: #EC6400;
+}
+
+header, footer {
+  background-color: #F08333;
+}
+
+main {
+  color: white;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.puns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 60%;
+}
+
+.pun-1 {
+  rotate: 5deg;
+}
+
+.pun-3 {
+  rotate: -16.5deg;
+}
+
+.pun-4 {
+  rotate: 16.2deg;
+}
+
+.pun-5 {
+  rotate: -13.3deg;
+}
+
+.pun-6 {
+  rotate: 8.4deg;
+}
+
+.pun-7 {
+  rotate: -10.5deg;
+}
+
+.pun-8 {
+  rotate: 11.8deg;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fox-img img {
+  max-width: 100%;
+  max-height: 50vh;
+}
+
+.download {
+  background-color: #FF8225;
+  border-radius: 0.5em;
+  padding: 0.2em 0.6em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.8;
+}
